@@ -1,0 +1,205 @@
+#main-navbar{
+    background-color: orange;
+    overflow: hidden;
+  }
+#navbar-container{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#main-navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+#main-navbar ul li{
+    float: left;
+    position: relative;
+    right: 50%;
+    display: block;
+}
+#main-navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 1500ms ease;
+}
+#main-navbar ul li a:hover{
+    transform: scale(1.25);
+    background-color: #FFD580; 
+}
+#onpage{
+    text-decoration: underline overline;
+}
+h1{
+	font-size: 50px;
+	color: #ff8800;
+	padding: 15px;
+	font-family: Times, "Times New Roman";
+	text-align: center;
+	transition: transform 2000ms ease;
+	border: ridge rgba(243,156,18,1); 
+	border-radius: 25px;
+	background: #FFFFFF;
+}
+h2{
+	font-size: 30px;
+	color: #ffa136;
+	padding: 30px;
+	font-family: Times, "Times New Roman";
+	text-align: center;
+	transition: transform 2000ms ease;
+}
+h3{
+	color: #FF9300;
+	font-family: Times, "Times New Roman";
+	text-align: center;
+	transition: transform 2000ms ease;
+}
+
+#Experience {
+  float: left;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: ridge rgba(255,99,71,1); 
+  transition: transform 2000ms ease;
+}
+#Experience:hover{
+    background-color: rgba(255,255,255,.5);
+    border: dotted rgba(255,99,71,1); 
+}
+#Skills {
+  float: right;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: ridge rgba(255,99,71,1); 
+}
+#Skills:hover{
+    background-color: rgba(255,255,255,.5);
+    border: dotted rgba(255,99,71,1); 
+}
+.IITPictures {
+  float: right;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: ridge rgba(255,99,71,1); 
+  width: 250px;
+  height: 250px;
+} 
+.IITPictures:hover{
+    background-color: rgba(255,255,255,.5);
+    border: dotted rgba(255,99,71,1); 
+}
+#Directions{
+  float: left;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: double rgba(255,99,71,1); 
+  height: 900px;
+  width: 600px;
+  transition: transform 1500ms ease;
+}
+#Directions:hover{
+    transform: scale(1.02);
+    background-color: #faca93;    
+}
+#DirectionsPictures{
+  float: right;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: double rgba(255,99,71,1); 
+  transition: transform 1500ms ease;
+}
+#DirectionsPictures:hover{
+    transform: scale(1.05);
+    background-color: #faca93;    
+}
+#DirectionsVideo{
+  float: right;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border: double rgba(255,99,71,1); 
+  transition: transform 1500ms ease;
+}
+#DirectionsVideo:hover{
+    transform: scale(1.05);
+    background-color: #faca93;    
+}
+.InstructionManual{
+  width: 287px;
+  height: 255.5px;
+  padding-left: 5px;
+}
+#researchpaperBody{
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color:  #CACAFF;
+}
+#instructionalmanualBody{
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color:  #ffffff;
+}
+#resumeBody{
+	
+	background-color:  #faca93;
+}
+#Paper{
+	border: 2px solid orange;
+  	border-radius: 8px;
+	padding: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;  	
+	background-color: #ffffff;    
+}
+#References{
+	border: 2px solid orange;
+  	border-radius: 8px;
+	padding: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: #ffffff;    
+}
+#graph{
+	border: 2px solid orange;
+  	border-radius: 8px;
+	padding: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: #ffffff;   
+	text-align: center;
+}
