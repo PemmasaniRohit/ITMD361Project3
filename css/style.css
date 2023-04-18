@@ -103,55 +103,112 @@ h3{
     background-color: rgba(255,255,255,.5);
     border: dotted rgba(255,99,71,1); 
 }
+
+
+
+
+
+
+
+#Specifications { 
+  text-align: center;
+  float: none;
+  border: solid rgb(234, 182, 255); 
+  border-width: 5px;
+  display: inline-block;
+  margin-bottom: 4em;
+  width: 75%;
+  color: #ff8800;
+  transition: transform 1500ms ease;
+}
+#Specifications:hover{
+  transform: scale(1.05);
+  background-color: #fde4c7;     
+}
+#Specifications p{
+  display: inherit;
+  float: none;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  padding-inline: 4em;
+}
+
 #Directions{
+  text-align: center;
+  list-style-position: inside;
   float: left;
-  padding: 5px;
+  padding: 20px;
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 5px;
-  border: double rgba(255,99,71,1); 
-  height: 900px;
-  width: 600px;
+  border: solid rgb(234, 182, 255); 
+  border-width: 10px;
   transition: transform 1500ms ease;
 }
 #Directions:hover{
-    transform: scale(1.02);
-    background-color: #faca93;    
+  transform: scale(1.015);
+  background-color: #fde4c7;     
 }
 #DirectionsPictures{
-  float: right;
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  position: relative;
+  float: left;
+  padding: .5em;
+  margin-left: .5em;
+  margin-right: 1em;
   margin-top: 0px;
-  margin-bottom: 5px;
-  border: double rgba(255,99,71,1); 
+  margin-bottom: .5em;
+  width: 35em;
+  height: 35em;
+  border: solid rgb(234, 182, 255); 
+  border-width: 10px;
   transition: transform 1500ms ease;
 }
 #DirectionsPictures:hover{
-    transform: scale(1.05);
-    background-color: #faca93;    
+  transform: scale(1.025);
+  background-color: #fde4c7;    
+}
+.InstructionManual{
+  width: 75%;
+  height: 75%;
+  padding-left: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #DirectionsVideo{
+  position: relative;
   float: right;
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding: .5em;
+  padding-bottom: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
   margin-top: 0px;
-  margin-bottom: 5px;
-  border: double rgba(255,99,71,1); 
+  margin-bottom: .5em;
+  width: 35em;
+  height: 35em;
+  border: solid rgb(234, 182, 255); 
+  border-width: 10px;
   transition: transform 1500ms ease;
 }
 #DirectionsVideo:hover{
-    transform: scale(1.05);
-    background-color: #faca93;    
+  transform: scale(01.025);
+  background-color: #fde4c7;    
 }
-.InstructionManual{
-  width: 287px;
-  height: 255.5px;
-  padding-left: 5px;
+.InstructionalVideo{
+  width: 75%;
+  height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
+
+
+
+
+
 #researchpaperBody{
 	padding: 5px;
 	margin-left: 5px;
