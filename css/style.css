@@ -209,6 +209,62 @@ h3{
 
 
 
+
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1250px) {
+  #instructionalmanualBody h1{
+    font-size: 3em;
+  }
+  #instructionalmanualBody h2{
+    font-size: 2em;
+  }
+  #instructionalmanualBody h3{
+    font-size: 1em;
+  }
+  
+  #Directions p {
+    font-size: .75em;
+  }
+  #Directions li{
+    font-size: .75em;
+  }
+  
+  #DirectionsVideo {
+    float: left;
+    margin: auto;
+    width: 25em;
+    height: 25em;
+    padding-bottom: 2em;
+
+  }
+  #DirectionsPictures {
+    float: right;
+    margin: auto;
+    margin-bottom: 2.5em;
+    width: 25em;
+    height: 25em;
+    padding-bottom: 2em;
+  }
+  #Directions{
+    text-align: center;
+  }
+  #Specifications p{
+    border-radius: 1em;
+    font-size: 1em;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 #researchpaperBody{
 	padding: 5px;
 	margin-left: 5px;
