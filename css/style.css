@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 #main-navbar{
     background-color: orange;
     overflow: hidden;
@@ -25,41 +26,57 @@
     display: block;
     padding: 10px 20px;
     color: #fff;
-    text-decoration: none;
-    transition: transform 1500ms ease;
+    font: 20px;
+    transition: transform 1.5s ease, box-shadow 1.5s ease-in-out;
+    
 }
 #main-navbar ul li a:hover{
-    transform: scale(1.25);
-    background-color: #FFD580; 
+    transform: scale(1.10);
+    box-shadow: inset 10.938rem 0 0 0 rgb(255, 206, 132);
 }
 #onpage{
     text-decoration: underline overline;
 }
+p{
+  font-family: Times, "Times New Roman";
+}
+li{
+  font-family: Times, "Times New Roman";
+}
 h1{
-	font-size: 50px;
+	font-size: 4em;
 	color: #ff8800;
-	padding: 15px;
-	font-family: Times, "Times New Roman";
+	padding: .1em;
+  font-family: 'Berkshire Swash', cursive;
 	text-align: center;
 	transition: transform 2000ms ease;
-	border: ridge rgba(243,156,18,1); 
-	border-radius: 25px;
+	border: ridge #ffa600; 
+  border-width: .2em;
+	border-radius: 2em;
 	background: #FFFFFF;
+  width: 75%;
+  margin: auto;
+  margin-top: .5em;
 }
 h2{
-	font-size: 30px;
+	font-size: 2em;
 	color: #ffa136;
-	padding: 30px;
+	padding: .25em;
 	font-family: Times, "Times New Roman";
 	text-align: center;
-	transition: transform 2000ms ease;
 }
 h3{
 	color: #FF9300;
 	font-family: Times, "Times New Roman";
 	text-align: center;
-	transition: transform 2000ms ease;
 }
+
+
+
+
+
+
+
 
 #Experience {
   float: left;
