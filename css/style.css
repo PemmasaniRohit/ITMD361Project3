@@ -443,3 +443,12 @@ h3{
 	background-color: #ffffff;   
 	text-align: center;
 }
+
+
+
+
+#map {
+  width: 700px;
+  height: 500px;
+  margin: 30px auto;
+}
