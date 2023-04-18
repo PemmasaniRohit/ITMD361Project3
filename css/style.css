@@ -374,25 +374,27 @@ h3{
 
 
 #researchpaperBody{
-	padding: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background-color:  #CACAFF;
+	background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(224, 253, 186));
 }
 #instructionalmanualBody{
-	padding: 5px;
+  text-align: center;
+  float: none;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background-color:  #ffffff;
+	background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(227, 206, 255));
 }
 #resumeBody{
-	
-	background-color:  #faca93;
+  background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(253, 226, 186));
 }
+
+
+
+
+
+
+
 #Paper{
 	border: 2px solid orange;
   	border-radius: 8px;
