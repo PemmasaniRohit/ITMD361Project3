@@ -312,6 +312,58 @@ h3{
 
 
 
+@media screen and (max-width: 450px) and (min-width: 0px){
+  #instructionalmanualBody h1{
+    font-size: 2em;
+  }
+  #instructionalmanualBody h2{
+    font-size: 1em;
+  }
+  #instructionalmanualBody h3{
+    font-size: .5em;
+  }
+  #Directions p {
+    font-size: .5em;
+  }
+  #Directions li{
+    font-size: .5em;
+  }
+  #DirectionsVideo {
+    float: none;
+    margin: auto;
+    width: 15em;
+    height: 15em;
+    padding-bottom: 2em;
+
+  }
+  #DirectionsPictures {
+    float: none;
+    margin: auto;
+    margin-bottom: 2.5em;
+    width: 15em;
+    height: 15em;
+    padding-bottom: 2em;
+  }
+  #Directions{
+    text-align: center;
+  }
+
+  #Specifications { 
+  text-align: center;
+  float: none;
+  margin-bottom: 4em;
+  width: 40%;
+  }
+  #Specifications p{
+    float: none;
+    border-radius: 1em;
+    text-align: center;
+    font-size: .5em;
+    padding-inline: 4em;
+  }
+
+}
+
 
 
 
