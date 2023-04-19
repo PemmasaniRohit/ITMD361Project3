@@ -71,55 +71,72 @@ h3{
 	text-align: center;
 }
 
-
-
-
-
-
-
-
 #Experience {
+  width: 50%;
   float: left;
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  border: ridge rgba(255,99,71,1); 
+  padding: .5em;
+  margin-left: .5em;
+  margin-bottom:  .5em;
+  border: ridge #ffa136; 
+  border-width: 10px;
+  position: relative;
   transition: transform 2000ms ease;
 }
 #Experience:hover{
     background-color: rgba(255,255,255,.5);
-    border: dotted rgba(255,99,71,1); 
+    border: dotted #ffa136; 
+    border-width: 10px;
 }
 #Skills {
   float: right;
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  width: 40%;
+  position: relative;
+  padding:  .5em;
+  margin-left:  .5em;
+  margin-right:  .5em;
   margin-top: 0px;
-  margin-bottom: 5px;
-  border: ridge rgba(255,99,71,1); 
+  margin-bottom:  .5em;
+  border: ridge #ffa136; 
+  border-width: 10px;
 }
 #Skills:hover{
     background-color: rgba(255,255,255,.5);
-    border: dotted rgba(255,99,71,1); 
+    border: dotted #ffa136; 
+    border-width: 10px;
 }
 .IITPictures {
-  float: right;
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 50px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: ridge rgba(255,99,71,1); 
-  width: 250px;
-  height: 250px;
+  float: left;
+  position: relative;
+  padding:  .5em;
+  margin-left:  15%;
+  margin-bottom:  .5em;
+  border: ridge #ffa136; 
+  border-width: 10px;
+  border-radius: 50%;
+  width: 16.5em;
+  height: 17em;
+  animation-name: picturehover;
+  animation-duration: 3s;  
 } 
+@keyframes picturehover {
+  from {bottom: 50em;}
+  to {bottom: 0em;}
+}
 .IITPictures:hover{
     background-color: rgba(255,255,255,.5);
-    border: dotted rgba(255,99,71,1); 
+    border: dotted #ffa136; 
+    border-width: 10px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -225,11 +242,6 @@ h3{
 
 
 
-
-
-
-
-
 @media screen and (min-width: 900px) and (max-width: 1250px) {
   #instructionalmanualBody h1{
     font-size: 3em;
@@ -273,6 +285,8 @@ h3{
   }
 
 }
+
+
 
 @media screen and (max-width: 900px) and (min-width: 450px){
   #instructionalmanualBody h1{
@@ -325,7 +339,6 @@ h3{
   }
 
 }
-
 
 
 
@@ -390,6 +403,8 @@ h3{
 
 
 
+
+
 #researchpaperBody{
 	margin-left: 5px;
 	margin-right: 5px;
@@ -405,55 +420,108 @@ h3{
 #resumeBody{
   background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(253, 226, 186));
 }
+#researchpaperBody h1{
+  color: rgb(148, 211, 65);
+  border: ridge rgb(107, 153, 47);
+  border-width: .2em;
+	border-radius: 2em;
 
-
-
-
-
-
-
-#Paper{
-	border: 2px solid orange;
-  	border-radius: 8px;
-	padding: 10px;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;  	
-	background-color: #ffffff;    
 }
-#References{
-	border: 2px solid orange;
-  	border-radius: 8px;
-	padding: 10px;
+
+
+#Paper h2{
+  color: rgb(148, 211, 65);
+}
+#Paper h3{
+  color: rgb(148, 211, 65);
+}
+#Paper{
+	border: 4px solid rgb(148, 211, 65);
+  border-radius: 8px;
+  float:right;
+  width:600px;
+	padding: 15px;
 	margin-left: 5px;
+	margin-right: 100px;
+	margin-top: 15px;
+	margin-bottom: 5px;  	
+	background-color: #ffffff;  
+  transition: transform 1.0s ease-in-out;     
+}
+#Paper:hover{
+    transform: scale(1.05);
+}
+.researchpictures{
+  width: 375px;
+  padding: 15px;
+  border-radius: 50%;
+
+}
+
+#csecongraphic{
+	border: 4px solid rgb(148, 211, 65);
+  border-radius: 8px;
+  width:480px;
+  float:left;
+	padding: 10px;
+	margin-left: 100px;
 	margin-right: 5px;
 	margin-top: 15px;
 	margin-bottom: 5px;
-	background-color: #ffffff;    
+	background-color: #ffffff;
+  transition: rotate 1.5s ease-in-out,transform 1.5s ease-in-out;   
+}
+#csecongraphic:hover{
+    rotate: 12.5deg;
+    transform: scale(1.10);
 }
 #graph{
-	border: 2px solid orange;
-  	border-radius: 8px;
+	border: 4px solid rgb(148, 211, 65);
+  border-radius: 8px;
+  width:480px;
+  float:left;
 	padding: 10px;
-	margin-left: 5px;
+	margin-left: 100px;
 	margin-right: 5px;
 	margin-top: 15px;
 	margin-bottom: 5px;
 	background-color: #ffffff;   
 	text-align: center;
+  transition: rotate 1.5s ease-in-out,transform 1.5s ease-in-out;   
+}
+  
+#graph:hover{
+    rotate: -12.5deg;
+    transform: scale(1.10);
+    
+}
+#References{
+	border: 4px solid rgb(148, 211, 65);
+  border-radius: 8px;
+  float: left;
+  width:480px;
+	padding: 10px;
+	margin-left: 100px;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+  transition: rotate 1.5s ease-in-out,transform 1.5s ease-in-out;   
+}
+#References h2{
+  color: rgb(148, 211, 65);
+}
+#References:hover{
+    rotate: -12.5deg;
+    transform: scale(1.10);
 }
 
 
 
 
-
-
-
-
-
-
-
+* {
+/*     box-sizing: border-box; */
+}
 
 
 .container {
@@ -547,8 +615,26 @@ h3{
 
 
 
+
+
+
+
+
+
+
+
+
+
+#wrapper {
+  width: 850px;
+  height: 600px;
+  margin:0 auto;
+  overflow: hidden;
+}
 #map {
   width: 700px;
   height: 500px;
   margin: 30px auto;
 }
+
+
