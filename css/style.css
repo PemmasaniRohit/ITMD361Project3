@@ -1,637 +1,535 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-#main-navbar{
-    background-color: orange;
-    overflow: hidden;
-  }
-#navbar-container{
-    float: left;
-    width: 100%;
-    position: relative;
+ #main-navbar{
+     background-color: orange;
+     overflow: hidden;
 }
-#main-navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    float: left;
+ #navbar-container{
+     float: left;
+     width: 100%;
+     position: relative;
 }
-#main-navbar ul li{
-    float: left;
-    position: relative;
-    right: 50%;
-    display: block;
+ #main-navbar ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: 50%;
+     float: left;
 }
-#main-navbar ul li a{
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    font: 20px;
-    transition: transform 1.5s ease, box-shadow 1.5s ease-in-out;
-    
+ #main-navbar ul li{
+     float: left;
+     position: relative;
+     right: 50%;
+     display: block;
 }
-#main-navbar ul li a:hover{
-    transform: scale(1.10);
-    box-shadow: inset 10.938rem 0 0 0 rgb(255, 206, 132);
+ #main-navbar ul li a{
+     display: block;
+     padding: 10px 20px;
+     color: #fff;
+     font: 20px;
+     transition: transform 1.5s ease, box-shadow 1.5s ease-in-out;
 }
-#onpage{
-    text-decoration: underline overline;
+ #main-navbar ul li a:hover{
+     transform: scale(1.10);
+     box-shadow: inset 10.938rem 0 0 0 rgb(255, 206, 132);
 }
-p{
-  font-family: Times, "Times New Roman";
+ #onpage{
+     text-decoration: underline overline;
 }
-li{
-  font-family: Times, "Times New Roman";
+ p{
+     font-family: Times, "Times New Roman";
 }
-h1{
-	font-size: 4em;
-	color: #ff8800;
-	padding: .1em;
-  font-family: 'Berkshire Swash', cursive;
-	text-align: center;
-	transition: transform 2000ms ease;
-	border: ridge #ffa600; 
-  border-width: .2em;
-	border-radius: 2em;
-	background: #FFFFFF;
-  width: 75%;
-  margin: auto;
-  margin-top: .5em;
+ li{
+     font-family: Times, "Times New Roman";
 }
-h2{
-	font-size: 2em;
-	color: #ffa136;
-	padding: .25em;
-	font-family: Times, "Times New Roman";
-	text-align: center;
+ h1{
+     font-size: 4em;
+     color: #ff8800;
+     padding: .1em;
+     font-family: 'Berkshire Swash', cursive;
+     text-align: center;
+     transition: transform 2000ms ease;
+     border: ridge #ffa600;
+     border-width: .2em;
+     border-radius: 2em;
+     background: #FFFFFF;
+     width: 75%;
+     margin: auto;
+     margin-top: .5em;
 }
-h3{
-	color: #FF9300;
-	font-family: Times, "Times New Roman";
-	text-align: center;
+ h2{
+     font-size: 2em;
+     color: #ffa136;
+     padding: .25em;
+     font-family: Times, "Times New Roman";
+     text-align: center;
 }
-
-#Experience {
-  width: 50%;
-  float: left;
-  padding: .5em;
-  margin-left: .5em;
-  margin-bottom:  .5em;
-  border: ridge #ffa136; 
-  border-width: 10px;
-  position: relative;
-  transition: transform 2000ms ease;
+ h3{
+     color: #FF9300;
+     font-family: Times, "Times New Roman";
+     text-align: center;
 }
-#Experience:hover{
-    background-color: rgba(255,255,255,.5);
-    border: dotted #ffa136; 
-    border-width: 10px;
+ #Experience {
+     width: 50%;
+     float: left;
+     padding: .5em;
+     margin-left: .5em;
+     margin-bottom: .5em;
+     border: ridge #ffa136;
+     border-width: 10px;
+     position: relative;
+     transition: transform 2000ms ease;
 }
-#Skills {
-  float: right;
-  width: 40%;
-  position: relative;
-  padding:  .5em;
-  margin-left:  .5em;
-  margin-right:  .5em;
-  margin-top: 0px;
-  margin-bottom:  .5em;
-  border: ridge #ffa136; 
-  border-width: 10px;
+ #Experience:hover{
+     background-color: rgba(255,255,255,.5);
+     border: dotted #ffa136;
+     border-width: 10px;
 }
-#Skills:hover{
-    background-color: rgba(255,255,255,.5);
-    border: dotted #ffa136; 
-    border-width: 10px;
+ #Skills {
+     float: right;
+     width: 40%;
+     position: relative;
+     padding: .5em;
+     margin-left: .5em;
+     margin-right: .5em;
+     margin-top: 0px;
+     margin-bottom: .5em;
+     border: ridge #ffa136;
+     border-width: 10px;
 }
-.IITPictures {
-  float: left;
-  position: relative;
-  padding:  .5em;
-  margin-left:  15%;
-  margin-bottom:  .5em;
-  border: ridge #ffa136; 
-  border-width: 10px;
-  border-radius: 50%;
-  width: 16.5em;
-  height: 17em;
-  animation-name: picturehover;
-  animation-duration: 3s;  
-} 
-@keyframes picturehover {
-  from {bottom: 50em;}
-  to {bottom: 0em;}
+ #Skills:hover{
+     background-color: rgba(255,255,255,.5);
+     border: dotted #ffa136;
+     border-width: 10px;
 }
-.IITPictures:hover{
-    background-color: rgba(255,255,255,.5);
-    border: dotted #ffa136; 
-    border-width: 10px;
+ .IITPictures {
+     float: left;
+     position: relative;
+     padding: .5em;
+     margin-left: 15%;
+     margin-bottom: .5em;
+     border: ridge #ffa136;
+     border-width: 10px;
+     border-radius: 50%;
+     width: 16.5em;
+     height: 17em;
+     animation-name: picturehover;
+     animation-duration: 3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Specifications { 
-  text-align: center;
-  float: none;
-  border: solid rgb(234, 182, 255); 
-  border-width: 5px;
-  display: inline-block;
-  margin-bottom: 4em;
-  width: 75%;
-  color: #ff8800;
-  transition: transform 1500ms ease;
+ @keyframes picturehover {
+     from {
+        bottom: 50em;
+    }
+     to {
+        bottom: 0em;
+    }
 }
-#Specifications:hover{
-  transform: scale(1.05);
-  background-color: #fde4c7;     
+ .IITPictures:hover{
+     background-color: rgba(255,255,255,.5);
+     border: dotted #ffa136;
+     border-width: 10px;
 }
-#Specifications p{
-  display: inherit;
-  float: none;
-  border-radius: 1em;
-  text-align: center;
-  font-size: 1.5em;
-  padding-inline: 4em;
+ #Specifications {
+     text-align: center;
+     float: none;
+     border: solid rgb(234, 182, 255);
+     border-width: 5px;
+     display: inline-block;
+     margin-bottom: 4em;
+     width: 75%;
+     color: #ff8800;
+     transition: transform 1500ms ease;
 }
-
-#Directions{
-  text-align: center;
-  list-style-position: inside;
-  float: left;
-  padding: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  border: solid rgb(234, 182, 255); 
-  border-width: 10px;
-  transition: transform 1500ms ease;
+ #Specifications:hover{
+     transform: scale(1.05);
+     background-color: #fde4c7;
 }
-#Directions:hover{
-  transform: scale(1.015);
-  background-color: #fde4c7;     
+ #Specifications p{
+     display: inherit;
+     float: none;
+     border-radius: 1em;
+     text-align: center;
+     font-size: 1.5em;
+     padding-inline: 4em;
 }
-#DirectionsPictures{
-  position: relative;
-  float: left;
-  padding: .5em;
-  margin-left: .5em;
-  margin-right: 1em;
-  margin-top: 0px;
-  margin-bottom: .5em;
-  width: 35em;
-  height: 35em;
-  border: solid rgb(234, 182, 255); 
-  border-width: 10px;
-  transition: transform 1500ms ease;
+ #Directions{
+     text-align: center;
+     list-style-position: inside;
+     float: left;
+     padding: 20px;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-top: 30px;
+     margin-bottom: 5px;
+     border: solid rgb(234, 182, 255);
+     border-width: 10px;
+     transition: transform 1500ms ease;
 }
-#DirectionsPictures:hover{
-  transform: scale(1.025);
-  background-color: #fde4c7;    
+ #Directions:hover{
+     transform: scale(1.015);
+     background-color: #fde4c7;
 }
-.InstructionManual{
-  width: 75%;
-  height: 75%;
-  padding-left: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ #DirectionsPictures{
+     position: relative;
+     float: left;
+     padding: .5em;
+     margin-left: .5em;
+     margin-right: 1em;
+     margin-top: 0px;
+     margin-bottom: .5em;
+     width: 35em;
+     height: 35em;
+     border: solid rgb(234, 182, 255);
+     border-width: 10px;
+     transition: transform 1500ms ease;
 }
-#DirectionsVideo{
-  position: relative;
-  float: right;
-  padding: .5em;
-  padding-bottom: 1em;
-  margin-left: .5em;
-  margin-right: .5em;
-  margin-top: 0px;
-  margin-bottom: .5em;
-  width: 35em;
-  height: 35em;
-  border: solid rgb(234, 182, 255); 
-  border-width: 10px;
-  transition: transform 1500ms ease;
+ #DirectionsPictures:hover{
+     transform: scale(1.025);
+     background-color: #fde4c7;
 }
-#DirectionsVideo:hover{
-  transform: scale(01.025);
-  background-color: #fde4c7;    
+ .InstructionManual{
+     width: 75%;
+     height: 75%;
+     padding-left: 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
-.InstructionalVideo{
-  width: 75%;
-  height: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+ #DirectionsVideo{
+     position: relative;
+     float: right;
+     padding: .5em;
+     padding-bottom: 1em;
+     margin-left: .5em;
+     margin-right: .5em;
+     margin-top: 0px;
+     margin-bottom: .5em;
+     width: 35em;
+     height: 35em;
+     border: solid rgb(234, 182, 255);
+     border-width: 10px;
+     transition: transform 1500ms ease;
 }
-
-
-
-
-@media screen and (min-width: 900px) and (max-width: 1250px) {
-  #instructionalmanualBody h1{
-    font-size: 3em;
-  }
-  #instructionalmanualBody h2{
-    font-size: 2em;
-  }
-  #instructionalmanualBody h3{
-    font-size: 1em;
-  }
-  
-  #Directions p {
-    font-size: .75em;
-  }
-  #Directions li{
-    font-size: .75em;
-  }
-  
-  #DirectionsVideo {
-    float: left;
-    margin: auto;
-    width: 25em;
-    height: 25em;
-    padding-bottom: 2em;
-
-  }
-  #DirectionsPictures {
-    float: right;
-    margin: auto;
-    margin-bottom: 2.5em;
-    width: 25em;
-    height: 25em;
-    padding-bottom: 2em;
-  }
-  #Directions{
-    text-align: center;
-  }
-  #Specifications p{
-    border-radius: 1em;
-    font-size: 1em;
-  }
-
+ #DirectionsVideo:hover{
+     transform: scale(01.025);
+     background-color: #fde4c7;
 }
-
-
-
-@media screen and (max-width: 900px) and (min-width: 450px){
-  #instructionalmanualBody h1{
-    font-size: 2.5em;
-  }
-  #instructionalmanualBody h2{
-    font-size: 1.5em;
-  }
-  #instructionalmanualBody h3{
-    font-size: .75em;
-  }
-  #Directions p {
-    font-size: .5em;
-  }
-  #Directions li{
-    font-size: .5em;
-  }
-  #DirectionsVideo {
-    float: none;
-    margin: auto;
-    width: 20em;
-    height: 20em;
-    padding-bottom: 2em;
-
-  }
-  #DirectionsPictures {
-    float: none;
-    margin: auto;
-    margin-bottom: 2.5em;
-    width: 20em;
-    height: 20em;
-    padding-bottom: 2em;
-  }
-  #Directions{
-    text-align: center;
-  }
-
-  #Specifications { 
-  text-align: center;
-  float: none;
-  margin-bottom: 4em;
-  width: 40%;
-  }
-  #Specifications p{
-    float: none;
-    border-radius: 1em;
-    text-align: center;
-    font-size: 1.25em;
-    padding-inline: 4em;
-  }
-
+ .InstructionalVideo{
+     width: 75%;
+     height: 75%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: auto;
 }
-
-
-
-@media screen and (max-width: 450px) and (min-width: 0px){
-  #instructionalmanualBody h1{
-    font-size: 2em;
-  }
-  #instructionalmanualBody h2{
-    font-size: 1em;
-  }
-  #instructionalmanualBody h3{
-    font-size: .5em;
-  }
-  #Directions p {
-    font-size: .5em;
-  }
-  #Directions li{
-    font-size: .5em;
-  }
-  #DirectionsVideo {
-    float: none;
-    margin: auto;
-    width: 15em;
-    height: 15em;
-    padding-bottom: 2em;
-
-  }
-  #DirectionsPictures {
-    float: none;
-    margin: auto;
-    margin-bottom: 2.5em;
-    width: 15em;
-    height: 15em;
-    padding-bottom: 2em;
-  }
-  #Directions{
-    text-align: center;
-  }
-
-  #Specifications { 
-  text-align: center;
-  float: none;
-  margin-bottom: 4em;
-  width: 40%;
-  }
-  #Specifications p{
-    float: none;
-    border-radius: 1em;
-    text-align: center;
-    font-size: .5em;
-    padding-inline: 4em;
-  }
-
+ @media screen and (min-width: 900px) and (max-width: 1250px) {
+     #instructionalmanualBody h1{
+         font-size: 3em;
+    }
+     #instructionalmanualBody h2{
+         font-size: 2em;
+    }
+     #instructionalmanualBody h3{
+         font-size: 1em;
+    }
+     #Directions p {
+         font-size: .75em;
+    }
+     #Directions li{
+         font-size: .75em;
+    }
+     #DirectionsVideo {
+         float: left;
+         margin: auto;
+         width: 25em;
+         height: 25em;
+         padding-bottom: 2em;
+    }
+     #DirectionsPictures {
+         float: right;
+         margin: auto;
+         margin-bottom: 2.5em;
+         width: 25em;
+         height: 25em;
+         padding-bottom: 2em;
+    }
+     #Directions{
+         text-align: center;
+    }
+     #Specifications p{
+         border-radius: 1em;
+         font-size: 1em;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-#researchpaperBody{
-	margin-left: 5px;
-	margin-right: 5px;
-	background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(224, 253, 186));
+ @media screen and (max-width: 900px) and (min-width: 450px){
+     #instructionalmanualBody h1{
+         font-size: 2.5em;
+    }
+     #instructionalmanualBody h2{
+         font-size: 1.5em;
+    }
+     #instructionalmanualBody h3{
+         font-size: .75em;
+    }
+     #Directions p {
+         font-size: .5em;
+    }
+     #Directions li{
+         font-size: .5em;
+    }
+     #DirectionsVideo {
+         float: none;
+         margin: auto;
+         width: 20em;
+         height: 20em;
+         padding-bottom: 2em;
+    }
+     #DirectionsPictures {
+         float: none;
+         margin: auto;
+         margin-bottom: 2.5em;
+         width: 20em;
+         height: 20em;
+         padding-bottom: 2em;
+    }
+     #Directions{
+         text-align: center;
+    }
+     #Specifications {
+         text-align: center;
+         float: none;
+         margin-bottom: 4em;
+         width: 40%;
+    }
+     #Specifications p{
+         float: none;
+         border-radius: 1em;
+         text-align: center;
+         font-size: 1.25em;
+         padding-inline: 4em;
+    }
 }
-#instructionalmanualBody{
-  text-align: center;
-  float: none;
-	margin-left: 5px;
-	margin-right: 5px;
-	background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(227, 206, 255));
+ @media screen and (max-width: 450px) and (min-width: 0px){
+     #instructionalmanualBody h1{
+         font-size: 2em;
+    }
+     #instructionalmanualBody h2{
+         font-size: 1em;
+    }
+     #instructionalmanualBody h3{
+         font-size: .5em;
+    }
+     #Directions p {
+         font-size: .5em;
+    }
+     #Directions li{
+         font-size: .5em;
+    }
+     #DirectionsVideo {
+         float: none;
+         margin: auto;
+         width: 15em;
+         height: 15em;
+         padding-bottom: 2em;
+    }
+     #DirectionsPictures {
+         float: none;
+         margin: auto;
+         margin-bottom: 2.5em;
+         width: 15em;
+         height: 15em;
+         padding-bottom: 2em;
+    }
+     #Directions{
+         text-align: center;
+    }
+     #Specifications {
+         text-align: center;
+         float: none;
+         margin-bottom: 4em;
+         width: 40%;
+    }
+     #Specifications p{
+         float: none;
+         border-radius: 1em;
+         text-align: center;
+         font-size: .5em;
+         padding-inline: 4em;
+    }
 }
-#resumeBody{
-  background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(253, 226, 186));
+ #researchpaperBody{
+     margin-left: 5px;
+     margin-right: 5px;
+     background-image: linear-gradient( to bottom right, rgba(255, 189, 91, 0), rgb(224, 253, 186));
 }
-#researchpaperBody h1{
-  color: rgb(148, 211, 65);
-  border: ridge rgb(107, 153, 47);
-  border-width: .2em;
-	border-radius: 2em;
-
+ #instructionalmanualBody{
+     text-align: center;
+     float: none;
+     margin-left: 5px;
+     margin-right: 5px;
+     background-image: linear-gradient( to bottom right, rgba(255, 189, 91, 0), rgb(227, 206, 255));
 }
-
-
-#Paper h2{
-  color: rgb(148, 211, 65);
+ #resumeBody{
+     background-image: linear-gradient( to bottom right, rgba(255, 189, 91, 0), rgb(253, 226, 186));
 }
-#Paper h3{
-  color: rgb(148, 211, 65);
+ #researchpaperBody h1{
+     color: rgb(148, 211, 65);
+     border: ridge rgb(107, 153, 47);
+     border-width: .2em;
+     border-radius: 2em;
 }
-#Paper{
-	border: 4px solid rgb(148, 211, 65);
-  border-radius: 8px;
-  float:right;
-  width:600px;
-	padding: 15px;
-	margin-left: 5px;
-	margin-right: 100px;
-	margin-top: 15px;
-	margin-bottom: 5px;  	
-	background-color: #ffffff;  
-  transition: transform 1.0s ease-in-out;     
+ #Paper h2{
+     color: rgb(148, 211, 65);
 }
-#Paper:hover{
-    transform: scale(1.05);
+ #Paper h3{
+     color: rgb(148, 211, 65);
 }
-.researchpictures{
-  width: 375px;
-  padding: 15px;
-  border-radius: 50%;
-
+ #Paper{
+     border: 4px solid rgb(148, 211, 65);
+     border-radius: 8px;
+     float:right;
+     width:600px;
+     padding: 15px;
+     margin-left: 5px;
+     margin-right: 100px;
+     margin-top: 15px;
+     margin-bottom: 5px;
+     background-color: #ffffff;
+     transition: transform 1.0s ease-in-out;
 }
-
-#csecongraphic{
-	border: 4px solid rgb(148, 211, 65);
-  border-radius: 8px;
-  width:480px;
-  float:left;
-	padding: 10px;
-	margin-left: 100px;
-	margin-right: 5px;
-	margin-top: 15px;
-	margin-bottom: 5px;
-	background-color: #ffffff;
-  transition: transform 1.5s ease-in-out;   
+ #Paper:hover{
+     transform: scale(1.05);
 }
-#csecongraphic:hover{
-    transform: scale(1.10);
+ .researchpictures{
+     width: 375px;
+     padding: 15px;
+     border-radius: 50%;
 }
-#graph{
-	border: 4px solid rgb(148, 211, 65);
-  border-radius: 8px;
-  width:480px;
-  float:left;
-	padding: 10px;
-	margin-left: 100px;
-	margin-right: 5px;
-	margin-top: 15px;
-	margin-bottom: 5px;
-	background-color: #ffffff;   
-	text-align: center;
-  transition: transform 1.5s ease-in-out;   
+ #csecongraphic{
+     border: 4px solid rgb(148, 211, 65);
+     border-radius: 8px;
+     width:480px;
+     float:left;
+     padding: 10px;
+     margin-left: 100px;
+     margin-right: 5px;
+     margin-top: 15px;
+     margin-bottom: 5px;
+     background-color: #ffffff;
+     transition: transform 1.5s ease-in-out;
 }
-  
-#graph:hover{
-    transform: scale(1.10);
-    
+ #csecongraphic:hover{
+     transform: scale(1.10);
 }
-#References{
-	border: 4px solid rgb(148, 211, 65);
-  border-radius: 8px;
-  float: left;
-  width:480px;
-	padding: 10px;
-	margin-left: 100px;
-	margin-right: 5px;
-	margin-top: 15px;
-	margin-bottom: 5px;
-	background-color: #ffffff;
-  transition: transform 1.5s ease-in-out;   
+ #graph{
+     border: 4px solid rgb(148, 211, 65);
+     border-radius: 8px;
+     width:480px;
+     float:left;
+     padding: 10px;
+     margin-left: 100px;
+     margin-right: 5px;
+     margin-top: 15px;
+     margin-bottom: 5px;
+     background-color: #ffffff;
+     text-align: center;
+     transition: transform 1.5s ease-in-out;
 }
-#References h2{
-  color: rgb(148, 211, 65);
+ #graph:hover{
+     transform: scale(1.10);
 }
-#References:hover{
-    transform: scale(1.10);
+ #References{
+     border: 4px solid rgb(148, 211, 65);
+     border-radius: 8px;
+     float: left;
+     width:480px;
+     padding: 10px;
+     margin-left: 100px;
+     margin-right: 5px;
+     margin-top: 15px;
+     margin-bottom: 5px;
+     background-color: #ffffff;
+     transition: transform 1.5s ease-in-out;
 }
-
-
-
-
-* {
-/*     box-sizing: border-box; */
+ #References h2{
+     color: rgb(148, 211, 65);
 }
-
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ #References:hover{
+     transform: scale(1.10);
 }
-
-.slideshow {
-   display: block;
-    position: relative;
-    width: 100%;
-    margin: 10px;
-    max-width: 500px;
-    background-color: rgb(158, 255, 133);
-    overflow: hidden;
+ * {
+    /* box-sizing: border-box;
+     */
 }
-
-.AllPictures {
-  width: 100%;
-  padding-top: 75%;
+ .container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
-
-.picture {
-    position: absolute;
-    display: flex;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    
+ .slideshow {
+     display: block;
+     position: relative;
+     width: 100%;
+     margin: 10px;
+     max-width: 500px;
+     background-color: rgb(158, 255, 133);
+     overflow: hidden;
 }
-
-.picture.active {
-    opacity: 1;
+ .AllPictures {
+     width: 100%;
+     padding-top: 75%;
 }
-
-.picture img {
-  width: 100%;
+ .picture {
+     position: absolute;
+     display: flex;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
 }
-
-.buttonleft {
-    opacity: .8;
-    position: absolute;
-
-    cursor: crosshair;
-    
-
-
-
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-right: 50px solid rgb(19, 169, 46);
-    border-bottom: 25px solid transparent;
-    
+ .picture.active {
+     opacity: 1;
 }
-
-.buttonright {
-    opacity: .8;
-    position: absolute;
-
-    cursor: crosshair;
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-left: 50px solid rgb(19, 169, 46);
-    border-bottom: 25px solid transparent;
-    
+ .picture img {
+     width: 100%;
 }
-
-
-#back {
-    top: 50%;
-    left: 0;
+ .buttonleft {
+     opacity: .8;
+     position: absolute;
+     cursor: crosshair;
+     width: 0;
+     height: 0;
+     border-top: 25px solid transparent;
+     border-right: 50px solid rgb(19, 169, 46);
+     border-bottom: 25px solid transparent;
 }
-
-#forward {
-    top: 50%;
-    right: 0;
+ .buttonright {
+     opacity: .8;
+     position: absolute;
+     cursor: crosshair;
+     width: 0;
+     height: 0;
+     border-top: 25px solid transparent;
+     border-left: 50px solid rgb(19, 169, 46);
+     border-bottom: 25px solid transparent;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#wrapper {
-  width: 850px;
-  height: 600px;
-  margin:0 auto;
-  overflow: hidden;
+ #back {
+     top: 50%;
+     left: 0;
 }
-#map {
-  width: 700px;
-  height: 500px;
-  margin: 30px auto;
+ #forward {
+     top: 50%;
+     right: 0;
 }
-
-
+ #wrapper {
+     width: 850px;
+     height: 600px;
+     margin:0 auto;
+     overflow: hidden;
+}
+ #map {
+     width: 700px;
+     height: 500px;
+     margin: 30px auto;
+}
