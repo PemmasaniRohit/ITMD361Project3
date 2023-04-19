@@ -76,6 +76,14 @@ var myCenter = new google.maps.LatLng(41.878876, -87.635918);
 }
 
 
+
+
+
+
+
+
+
+
 async function pictureSlider(){
 let listofPictures = document.getElementsByClassName("picture");
 let selectedPicture = 0;
@@ -99,9 +107,10 @@ function reduceOpacity(newSelection) {
       alert("Restarting Slideshow!");
     }
     if (newSelection < 0) {
-      moveTo = listofPictures.length - 1;
+      newSelection = listofPictures.length - 1;
       alert("Restarting Slideshow!");
     }
+    
     listofPictures[selectedPicture].classList.toggle("active");
     listofPictures[newSelection].classList.toggle("active");
     selectedPicture = newSelection;
