@@ -444,6 +444,91 @@ h3{
 	text-align: center;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideshow {
+   display: block;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    max-width: 500px;
+    background-color: rgb(158, 255, 133);
+    overflow: hidden;
+}
+
+.AllPictures {
+  width: 100%;
+  padding-top: 75%;
+}
+
+.picture {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+}
+
+.picture.active {
+    opacity: 1;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.buttonleft {
+    opacity: .8;
+    position: absolute;
+
+    cursor: crosshair;
+    
+
+
+
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 50px solid rgb(19, 169, 46);
+    border-bottom: 25px solid transparent;
+    
+}
+
+.buttonright {
+    opacity: .8;
+    position: absolute;
+
+    cursor: crosshair;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid rgb(19, 169, 46);
+    border-bottom: 25px solid transparent;
+    
+}
+
+
+#back {
+    top: 50%;
+    left: 0;
+}
+
+#forward {
+    top: 50%;
+    right: 0;
+}
+
+
+
+
+
 
 
 
