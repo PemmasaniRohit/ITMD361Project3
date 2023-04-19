@@ -74,3 +74,38 @@ var myCenter = new google.maps.LatLng(41.878876, -87.635918);
 
   initMap();
 }
+
+
+async function pictureSlider(){
+let listofPictures = document.getElementsByClassName("picture");
+let selectedPicture = 0;
+
+document.getElementById("forward").addEventListener("click", () => {
+    //document.write(forward):
+    //selectedPicture = selectedPicture+1
+    reduceOpacity(selectedPicture+1)
+});
+
+
+document.getElementById("back").addEventListener("click", () => {
+    //document.write(back):
+    //selectedPicture = selectedPicture-1
+    reduceOpacity(selectedPicture - 1)
+});
+
+function reduceOpacity(newSelection) {
+    if (newSelection >= listofPictures.length) {
+    	newSelection = 0;
+      alert("Restarting Slideshow!");
+    }
+    if (newSelection < 0) {
+      moveTo = listofPictures.length - 1;
+      alert("Restarting Slideshow!");
+    }
+    listofPictures[selectedPicture].classList.toggle("active");
+    listofPictures[newSelection].classList.toggle("active");
+    selectedPicture = newSelection;
+}
+
+}
+pictureSlider();
