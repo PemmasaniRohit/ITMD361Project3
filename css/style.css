@@ -472,7 +472,7 @@ h3{
   transition: rotate 1.5s ease-in-out,transform 1.5s ease-in-out;   
 }
 #csecongraphic:hover{
-    rotate: 12.5deg;
+    rotate: 12deg;
     transform: scale(1.10);
 }
 #graph{
@@ -491,7 +491,7 @@ h3{
 }
   
 #graph:hover{
-    rotate: -12.5deg;
+    rotate: -12deg;
     transform: scale(1.10);
     
 }
@@ -512,7 +512,7 @@ h3{
   color: rgb(148, 211, 65);
 }
 #References:hover{
-    rotate: -12.5deg;
+    rotate: -12deg;
     transform: scale(1.10);
 }
 
