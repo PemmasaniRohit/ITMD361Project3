@@ -357,20 +357,16 @@
          padding-inline: 4em;
     }
 }
- #researchpaperBody{
-     margin-left: 5px;
-     margin-right: 5px;
-     background-image: linear-gradient( to bottom right, rgba(255, 189, 91, 0), rgb(224, 253, 186));
+#researchpaperBody{
+	    background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(224, 253, 186));
 }
- #instructionalmanualBody{
+#instructionalmanualBody{
      text-align: center;
      float: none;
-     margin-left: 5px;
-     margin-right: 5px;
-     background-image: linear-gradient( to bottom right, rgba(255, 189, 91, 0), rgb(227, 206, 255));
+     background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(227, 206, 255));
 }
- #resumeBody{
-     background-image: linear-gradient( to bottom right, rgba(255, 189, 91, 0), rgb(253, 226, 186));
+#resumeBody{
+     background-image: linear-gradient(  to bottom right, rgba(255, 189, 91, 0), rgb(253, 226, 186));
 }
  #researchpaperBody h1{
      color: rgb(148, 211, 65);
